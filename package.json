@@ -1,7 +1,9 @@
 {
   "scripts": {
     "eth:create": "node eth.js pwd",
-    "eth:": "node eth.js pwd mnemonic"
+    "eth:": "node eth.js pwd mnemonic",
+    "sol:create": "node sol.js pwd",
+    "sol:": "node sol.js pwd mnemonic"
   },
   "dependencies": {
     "@solana/web3.js": "^1.66.1",
